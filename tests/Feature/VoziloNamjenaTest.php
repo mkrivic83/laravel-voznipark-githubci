@@ -38,7 +38,7 @@ class VoziloNamjenaTest extends TestCase
 
         // 4️⃣ Provjere
         $this->assertNotNull($vozilo->namjena);
-        $this->assertEquals('Osobno', $vozilo->namjena->naziv);
+        $this->assertEquals('Osobno', $vozilo->namjena->id);
     }
 
     /** @test */
