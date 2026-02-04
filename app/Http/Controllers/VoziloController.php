@@ -24,7 +24,7 @@ class VoziloController extends Controller
     public function store(Request $request)
     {
         $validated = $request->validate([
-            'naziv' => ['required','string','max:100'],
+            //'naziv' => ['required','string','max:100'],
             'tip' => ['required','string','max:50'],
             'motor' => ['required','string','max:50'],
             'registracija' => ['required','string','max:20'],
